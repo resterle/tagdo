@@ -3,6 +3,6 @@ defmodule TagdoTest do
   doctest Tagdo
 
   test "the truth" do
-    assert 1 + 1 == 2
+    assert Tagdo.the_truth
   end
 end
